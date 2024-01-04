@@ -1,0 +1,20 @@
+.certif_wrapper{
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .certif_about{
+    display: flex;
+    align-items: center;
+     p{
+       width: 81px;
+       color: #A1A1A1;
+       font-size: 15px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: 19px; /* 126.667% */
+       letter-spacing: 0.6px;
+     }
+  }
+}
