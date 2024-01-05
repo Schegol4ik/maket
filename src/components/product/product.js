@@ -1,4 +1,5 @@
 import React from 'react';
+import './product.scss'
 
 const Product = ({img, title, about, price}) => {
     return (
@@ -8,9 +9,14 @@ const Product = ({img, title, about, price}) => {
                 <h5>{title}</h5>
                 <div className="product_about_description">
                     <p>{about}</p>
-                    {price ? <p>Starting at:
-                            {price} /unit
-                        </p>
+                    {price ? <div className='description_price'>
+                        <span>
+                            Starting at:
+                        </span>
+                        <span>
+                             ${price}/unit
+                        </span>
+                        </div>
                         : <span style={{display: "none"}}></span>
                     }
                 </div>

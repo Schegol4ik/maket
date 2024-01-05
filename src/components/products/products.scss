@@ -1,0 +1,77 @@
+.products {
+  background-color: #EEE;
+  padding: 57px 0 60px 0;
+
+  .app_container {
+
+    .products_wrapper {
+
+      .products_header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 64px;
+
+        h3 {
+          color: #011F3A;
+          font-size: 32px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+
+        button {
+          width: 247px;
+          height: 44px;
+          border-radius: 44px;
+          background: #3D5675;
+          border: none;
+          color: #FFF;
+          text-align: center;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 18px; /* 128.571% */
+          letter-spacing: 1.96px;
+          text-transform: uppercase;
+        }
+      }
+
+      .products_about {
+        background-color: #FFF;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 46px;
+      }
+
+      .products_footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 130px;
+        span {
+          color: #A1A1A1;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 24px; /* 160% */
+          margin-right: 16px;
+        }
+
+        button {
+          border: none;
+          width: 158px;
+          height: 44px;
+          border-radius: 44px;
+          background: #FFF;
+          color: #3D5675;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 18px; /* 128.571% */
+          letter-spacing: 1.96px;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}

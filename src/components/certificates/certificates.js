@@ -7,6 +7,7 @@ import eco from '../../assets/images/Rectangle (5).svg'
 
 const Certificates = () => {
     return (
+        <div className='app_container'>
             <div className="certif_wrapper">
                 <div className="certif_about">
                     <img src={shop} alt="logo_sponsor"/>
@@ -21,6 +22,8 @@ const Certificates = () => {
                     <p>{'Eco-Frie' + '\n' + 'ndly'}</p>
                 </div>
             </div>
+        </div>
+
     );
 };
 
