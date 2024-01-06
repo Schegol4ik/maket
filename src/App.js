@@ -3,12 +3,16 @@ import Header from "./components/header/header";
 import Certificates from "./components/certificates/certificates";
 import Products from "./components/products/products";
 import './App.scss'
-import prod_1 from './assets/images/Rectangle (1) (1).svg'
-import prod_2 from './assets/images/Rectangle (2) (1).svg'
-import prod_3 from './assets/images/Rectangle (3) (1).svg'
-import prod_4 from './assets/images/Rectangle (4) (1).svg'
-import prod_5 from './assets/images/Rectangle (5) (1).svg'
-import prod_6 from './assets/images/Rectangle (6).svg'
+import prod_1 from './assets/images/prod1.svg'
+import prod_2 from './assets/images/prod2.svg'
+import prod_3 from './assets/images/prod3.svg'
+import prod_4 from './assets/images/prod4.svg'
+import prod_5 from './assets/images/prod5.svg'
+import prod_6 from './assets/images/prod6.svg'
+import box1 from './assets/images/box1.svg'
+import box2 from './assets/images/box2.svg'
+import box3 from './assets/images/box3.svg'
+import Boxes from "./components/boxes/boxes";
 
 const App = () => {
 
@@ -50,13 +54,29 @@ const App = () => {
             price: '6.54'
         },
     ])
-
+    const [box, setBox] = useState([
+        {
+            image: box1,
+            title: 'You Order',
+            about: 'Design and order boxes in a few clicks.'
+        },
+        {
+            image: box2,
+            title: 'We Proof',
+            about: 'Approve your designs before production.'
+        },
+        {
+            image: box3,
+            title: 'We Print & Ship',
+            about: 'Your order gets printed and shipped with tracking.'
+        },
+    ])
     return (
         <div className='app'>
             <Header/>
-                <Certificates/>
-                <Products product={product}/>
-
+            <Certificates/>
+            <Products product={product}/>
+            <Boxes box={box}/>
         </div>
     );
 };

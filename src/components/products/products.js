@@ -13,7 +13,7 @@ const Products = ({product}) => {
                         <button>Browse all products</button>
                     </div>
                     <div className="products_about">
-                        {product.map(({img, title, about, price}) => <Product
+                        {product.map(({img, title, about, price}) => <Product key={title}
                             img={img} title={title} about={about} price={price}/>)}
                     </div>
                     <div className="products_footer">

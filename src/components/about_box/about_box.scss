@@ -1,0 +1,29 @@
+.box_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .about_box {
+    max-width: 200px;
+    min-height: 91px;
+    h4 {
+      color: #011F3A;
+      text-align: center;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 23px; /* 127.778% */
+      letter-spacing: 0.36px;
+
+    }
+
+    p {
+      color: #3D5675;
+      text-align: center;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px; /* 160% */
+    }
+  }
+}
