@@ -1,0 +1,19 @@
+.advantage{
+  background-color: #EEE;
+  min-height: 766px;
+  .app_container{
+    h3 {
+      color: #011F3A;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 41px; /* 128.125% */
+      padding: 158px 0 42px 82.31px;
+    }
+
+    .advantage_wrapper{
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+}

@@ -13,6 +13,7 @@ import box1 from './assets/images/box1.svg'
 import box2 from './assets/images/box2.svg'
 import box3 from './assets/images/box3.svg'
 import Boxes from "./components/boxes/boxes";
+import Advantage from "./components/advantage/advantage";
 
 const App = () => {
 
@@ -71,12 +72,15 @@ const App = () => {
             about: 'Your order gets printed and shipped with tracking.'
         },
     ])
+
+
     return (
         <div className='app'>
             <Header/>
             <Certificates/>
             <Products product={product}/>
             <Boxes box={box}/>
+            <Advantage/>
         </div>
     );
 };
