@@ -14,6 +14,8 @@ import box2 from './assets/images/box2.svg'
 import box3 from './assets/images/box3.svg'
 import Boxes from "./components/boxes/boxes";
 import Advantage from "./components/advantage/advantage";
+import SizeBox from "./components/size_box/size_box";
+import Reviews from "./components/reviews/reviews";
 
 const App = () => {
 
@@ -81,6 +83,8 @@ const App = () => {
             <Products product={product}/>
             <Boxes box={box}/>
             <Advantage/>
+            <SizeBox/>
+            <Reviews/>
         </div>
     );
 };
