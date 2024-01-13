@@ -1,0 +1,53 @@
+.lets_go {
+  background-color: #EEE;
+  min-height: 392px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h3 {
+    color: #011F3A;
+    text-align: center;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .lets_go_buttons {
+    margin-top: 55px;
+
+    .btn1 {
+      margin-right: 11px;
+      width: 220px;
+      height: 44px;
+      border-radius: 44px;
+      background: #3D5675;
+      color: #FFF;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 18px; /* 128.571% */
+      letter-spacing: 1.96px;
+      text-transform: uppercase;
+      border: none;
+    }
+
+    .btn2 {
+      width: 247px;
+      height: 44px;
+      border-radius: 44px;
+      background: #FFF;
+      color: #3D5675;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 18px; /* 128.571% */
+      letter-spacing: 1.96px;
+      text-transform: uppercase;
+      border: none;
+
+    }
+  }
+}

@@ -1,0 +1,71 @@
+.about_review_wrapper {
+  display: flex;
+  align-items: center;
+
+  .about_review_images {
+    display: flex;
+  }
+
+  .about_review {
+    margin: 0 106px;
+
+    p {
+      color: #011F3A;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 31.92px; /* 133% */
+    }
+
+    .about_review_profile {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-width: 400px;
+
+      .profile_name {
+        // margin: 0 20px;
+        display: flex;
+        align-items: center;
+
+        .name_about {
+          margin-left: 20px;
+
+          h6 {
+            color: #011F3A;
+            font-size: 18px;
+            font-family: Lato, sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+
+          span {
+            color: #A1A1A1;
+            font-family: Lato, sans-serif;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 160% */
+          }
+        }
+
+      }
+
+      button {
+        width: 160px;
+        height: 44px;
+        border-radius: 44px;
+        background: #F2F2F2;
+        color: #3D5675;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px; /* 128.571% */
+        letter-spacing: 1.96px;
+        text-transform: uppercase;
+        border: none;
+      }
+    }
+  }
+}

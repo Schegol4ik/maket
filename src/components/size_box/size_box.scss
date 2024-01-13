@@ -1,5 +1,6 @@
 .size_box {
   background-color: #EEE;
+
   .app_container {
     .size_box_wrapper {
       display: flex;
@@ -8,18 +9,22 @@
       background: #FFCA3A;
       box-shadow: 0 14px 44px 0 rgba(143, 143, 143, 0.25);
       min-height: 610px;
+
       hr {
         width: 1px;
         height: 410px;
         background: rgba(161, 161, 161, 0.40);
         margin: 0 125px;
+        border: none;
       }
+
       .size_box_choise {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         max-width: 360px;
+
         h3 {
           color: #011F3A;
 

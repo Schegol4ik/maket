@@ -1,0 +1,58 @@
+.footer {
+  min-height: 365px;
+  background-color: #F2F3F4;
+
+  .app_container {
+    .footer_wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding-top: 60px;
+
+      span {
+        color: #3D5675;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+      li {
+        margin-bottom: 17px;
+      }
+
+      input {
+        width: 280px;
+        height: 36px;
+        border-radius: 34px;
+        background: #FFF;
+        border: none;
+        font-family: Roboto, sans-serif;
+
+        &::placeholder {
+          color: rgba(61, 86, 117, 0.40);
+          font-family: Roboto, sans-serif;
+          padding-left: 18px;
+          font-size: 15px;
+          font-style: italic;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+
+      button {
+        width: 187px;
+        height: 44px;
+        border-radius: 44px;
+        background: #3D5675;
+        border: none;
+        color: #FFF;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+    }
+  }
+}

@@ -19,7 +19,8 @@ const SizeBox = () => {
                         <div className="size_box_choise">
                             <img src={boxsize2} alt="images"/>
                             <h3>Need a free dieline template?</h3>
-                            <p>Let us know what size you need and we'll email an Adobe Illustrator dieline to you within 3-4 business days.</p>
+                            <p>Let us know what size you need and we'll email an Adobe Illustrator dieline to you within
+                                3-4 business days.</p>
                             <button>Request dieline</button>
                         </div>
                     </div>

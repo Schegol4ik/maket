@@ -1,6 +1,7 @@
 .container {
   height: 689px;
   background-color: #F2AE4D;
+
   .bar_wrapper {
     max-width: 1440px;
     margin: 0 auto;
@@ -8,10 +9,12 @@
     height: 100%;
     align-items: center;
     justify-content: space-between;
+
     .bar_main {
       width: 500px;
       height: 339px;
       margin-left: 120px;
+
       h1 {
         color: #011F3A;
         font-family: Roboto, sans-serif;
@@ -21,7 +24,8 @@
         line-height: normal;
         margin: 20.5px 20px 33px 0;
       }
-      p{
+
+      p {
         color: #011F3A;
         font-size: 15px;
         font-style: normal;
@@ -29,6 +33,7 @@
         line-height: 24px; /* 160% */
         margin: 0 223px 14px 0;
       }
+
       button {
         border: none;
         width: 228px;

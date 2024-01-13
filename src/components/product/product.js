@@ -13,7 +13,7 @@ const Product = ({img, title, about, price}) => {
                         <span>
                             Starting at:
                         </span>
-                        <span>
+                            <span>
                              ${price}/unit
                         </span>
                         </div>

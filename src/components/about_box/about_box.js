@@ -1,7 +1,7 @@
 import React from 'react';
 import './about_box.scss'
 
-const AboutBox = ({image, title, about }) => {
+const AboutBox = ({image, title, about}) => {
     return (
         <div className='box_wrapper'>
             <img src={image} alt="picture"/>
